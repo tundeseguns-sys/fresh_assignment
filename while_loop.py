@@ -3,7 +3,6 @@
 total = 0
 count = 0
 n = int(input("Enter a number (n): "))
-
 while count <= n:
     total += count
     count += 1
@@ -16,7 +15,6 @@ print(f"The sum of numbers from 1 to {n} is: {total}")
 factorial = 1
 count = 1
 n = int(input("Enter a number to find its factorial: "))
-
 while count <= n:
     factorial *= count
     count += 1
